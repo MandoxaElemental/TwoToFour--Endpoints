@@ -33,5 +33,5 @@
 ### TwoToFour - Endpoints_GitHub Repository Link:
 [TwoToFour - Endpoints GitHub Repository Link](https://github.com/MandoxaElemental/TwoToFour--Endpoints.git)
 
-This has been Peer Reviewed By: 
-> Comments: 
+This has been Peer Reviewed By: Trey
+> Comments: Works well! Nice touch with the outputs, adds character to the program!
