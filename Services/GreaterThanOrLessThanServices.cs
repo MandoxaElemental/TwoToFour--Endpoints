@@ -13,8 +13,6 @@ namespace GreaterThanOrLessThan.Services
         {
             
         }
-        [HttpPost]
-        [Route("comparison/{firstNum}/{secondNum}")]
         public List<string> UpdateComparison(int firstNum, int secondNum){
             if (firstNum > secondNum){
                 comparisonList.Add($"{firstNum} is Greater than {secondNum}");
@@ -24,7 +22,7 @@ namespace GreaterThanOrLessThan.Services
                 comparisonList.Add($"{secondNum} is Greater than {firstNum}");
             } else {
                 comparisonList.Add($"{firstNum} is Equal to {secondNum}");
-                comparisonList.Add($"{secondNum} is Equal to {firstNum}");
+                comparisonList.Add($"{secondNum} is Equal to {firstNum}...(Didn't I just say that?)");
             }
                 return comparisonList;
         }

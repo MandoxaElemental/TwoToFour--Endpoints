@@ -9,8 +9,6 @@ namespace TwoToFour__Endpoints.Services
     public class Add2NumbersServices
     {
     public List<string> numbers = new();
-    [HttpPost]
-    [Route("addNumber/{numberOne}/{numberTwo}")]
     public List<string> AddNumbers(int numberOne, int numberTwo){
         numbers.Add(numberOne + " Plus " + numberTwo + " is Euqal to: " + (numberOne+numberTwo) + ". Noice!");
         return numbers;
