@@ -14,7 +14,7 @@ namespace AskingQuestions.Services
         }
         public List<string> AddToQuestionList(string name, int time){
             if (time > 12 || time == 0){
-                questionList.Add("Please Enter a Valid Hour");
+                questionList.Add("Please Enter a Valid Hour between 1-12");
             }
             else{
                 questionList.Add($"Good Morning {name}! Today you have woken up around {time}:00");

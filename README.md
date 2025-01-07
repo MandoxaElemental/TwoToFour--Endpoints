@@ -30,7 +30,7 @@
 
 > Notes: dotnet new webapi & dotnet watch run <- Important; Copy for every project for now on
 
-### TwoToFour - Endpoints_GitHub Repository Link:_
+### TwoToFour - Endpoints_GitHub Repository Link:
 [TwoToFour - Endpoints GitHub Repository Link](https://github.com/MandoxaElemental/TwoToFour--Endpoints.git)
 
 This has been Peer Reviewed By: 
